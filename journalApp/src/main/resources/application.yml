@@ -1,0 +1,29 @@
+
+
+#spring.data.mongodb.username=myjournaluser
+#spring.data.mongodb.password=mypassword
+spring:
+  application:
+    name: journalApp
+
+  mail:
+    host: smtp.gmail.com        # SMTP server of your email provider
+    port: 587                   # 587 for encrypted (TLS), 25 for plain
+    username: nk.nirajkumar2024@gmail.com
+    password: "asptnmlmamydjfio"
+    properties:
+      mail:
+        smtp:
+          auth: true            # Send username/password for authentication
+          starttls:
+            enable: true
+
+  data:
+    mongodb:
+      uri: mongodb+srv://himanshu:1965@cluster0.f12hb3r.mongodb.net/?appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+
+api_key : a023225eebdf8c18ce36107bf4c36f03
+
